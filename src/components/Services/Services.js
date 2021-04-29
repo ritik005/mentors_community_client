@@ -5,7 +5,6 @@ import image5 from "../../Images/image5.svg";
 
 const Services = () => {
  return (
-
   <section id="services">
   <div class="container text-center">
     <h1 class="title">WHAT WE DO ?</h1>

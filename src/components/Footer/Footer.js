@@ -8,8 +8,13 @@ const Footer = () => (
     <div className="container">
       <div className="row">
         <div className="col-md-4 footer-box">
-          <h4 className="head">MENTOCIRCLE</h4>
+          <h4 className="head">MENTOHUB</h4>
           <p className="">Platform for 1-to-1 guidance for the student by alloting mentors for them.</p>
+          <i class="fa fa-facebook fa-lg"></i>
+          <i class="fa fa-instagram fa-lg"></i>
+          <i class="fa fa-twitter fa-lg"></i>
+          <i class="fa fa-telegram fa-lg"></i>
+
         </div>
         <div className="col-md-4 footer-box">
           <p>

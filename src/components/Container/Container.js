@@ -9,9 +9,15 @@ const Container = () => (
         <div className="col-md-6">
           <p className="promo-title">Welcome!</p>
           <p className="text">Don't <b>Google. </b> Just Ask.</p>
-          <button type="button" className="btn btn-primary">
+            <div class="search-container">
+              <form>
+              <input type="text" placeholder="Search for a mentor.." name="search" />
+              <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+          {/* <button type="button" className="btn btn-primary">
             Get Started
-          </button>
+          </button> */}
         </div>
         <div className="col-md-6 text-center">
           <img src={Image} className="img-fluid" alt="mydesk" />
