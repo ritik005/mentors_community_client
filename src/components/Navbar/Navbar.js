@@ -1,11 +1,14 @@
 import React from "react";
 
 import './Navbar.css';
-
+import updated_mento_logo from "../../Images/updated_mento_logo.png";
 const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <a className="navbar-brand" href="/">
-      MENTOHUB
+    <img
+          src={updated_mento_logo}
+          class="logo-static"
+        />
     </a>
     <button
       className="navbar-toggler"

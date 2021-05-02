@@ -1,5 +1,6 @@
 import React from "react";
 import MaterialIcons from "material-icons-react";
+import logo_vid from "../../Images/logo_vid.gif";
 
 import "./Footer.css";
 
@@ -8,7 +9,9 @@ const Footer = () => (
     <div className="container">
       <div className="row">
         <div className="col-md-4 footer-box">
-          <h4 className="head">MENTOHUB</h4>
+        <img
+          src={logo_vid}
+        />
           <p className="">Platform for 1-to-1 guidance for the student by alloting mentors for them.</p>
           <i class="fa fa-facebook fa-lg"></i>
           <i class="fa fa-instagram fa-lg"></i>
