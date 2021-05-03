@@ -1,7 +1,7 @@
 import React from "react";
-
-import './Navbar.css';
 import updated_mento_logo from "../../Images/updated_mento_logo.png";
+import './Navbar.css';
+
 const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <a className="navbar-brand" href="/">
@@ -30,12 +30,12 @@ const Navbar = () => (
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/login">
+        <a className="nav-link" href="/signin">
             Login
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/login">
+          <a className="nav-link" href="/signup">
             SignUp
           </a>
         </li>

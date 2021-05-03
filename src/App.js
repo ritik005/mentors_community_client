@@ -1,19 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import  Navbar  from './components/Navbar/Navbar';
-import Container from './components/Container/Container';
-import Footer from './components/Footer/Footer';
-import Services from './components/Services/Services';
+import Landing from './components/Landing/Landing';
+import Signin from './components/Signin/Signin';
 
  const App = () => {
  return (
-  <div>
-    <Navbar />
-    <Container />
-    <Services />
-    <Footer />
-
-  </div>
+  <Router>
+    <Route path="/" exact component={Landing}/>
+    <Route path="/signin" component={Signin} />
+  </Router>
  )
 }
 export default App;
