@@ -39,6 +39,10 @@ const Services = () => {
     <button type="button" className="btn btn-primary">
         Become a mentor
      </button>
+     <button type="button" className="btn btn-primary">
+        Become a learner
+     </button>
+    
   </div>
 </section>
  )

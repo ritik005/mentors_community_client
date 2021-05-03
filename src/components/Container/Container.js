@@ -8,7 +8,7 @@ const Container = () => (
       <div className="row">
         <div className="col-md-6">
           <p className="promo-title">Welcome!</p>
-          <p className="text">Don't <b>Google. </b> Just Ask.</p>
+          <p className="text">have experience then <b>share</b>,<br />a newbie then <b>prepare</b>.</p>
             <div class="search-container">
               <form>
               <input type="text" placeholder="Search for a mentor.." name="search" />

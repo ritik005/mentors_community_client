@@ -12,7 +12,7 @@ const Footer = () => (
         <img
           src={logo_vid}
         />
-          <p className="">Platform for 1-to-1 guidance for the student by alloting mentors for them.</p>
+          <p className="">Platform where mentors guide and learners learn in group and get 1 on 1 mentorship.</p>
           <i class="fa fa-facebook fa-lg"></i>
           <i class="fa fa-instagram fa-lg"></i>
           <i class="fa fa-twitter fa-lg"></i>
